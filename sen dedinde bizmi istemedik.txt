@@ -1,0 +1,20 @@
+using UnityEngine
+
+public class HatalarDenizi : Monobehaviour
+{
+    public float hiz = "10"; // Tip hatası (string yerine float)
+    private rigidbody rb // Noktalı virgül eksik
+    void Start(
+        rb = GetComponent<RigidBody>() // Yanlış sınıf ismi (RigidBody değil Rigidbody)
+    }
+
+    void Update()
+    {
+        if Input.GetKeyDown(KeyCode.Space) // Parantez eksik
+            rb.addforce(Vector3.Up * hiz); // Yanlış fonksiyon ismi ve yanlış yön
+    }
+}	
+	Gecenin sessizliğinde ay ışığı parlar,
+	Rüzgâr usulca saç tellerini aralar.
+	Bir umut saklıdır her yeni sabaha,
+	Gönül, sevdayla açar kapılarını hayata.
