@@ -1,7 +1,0 @@
-[SerializeField] protected int vektor3 int index 
-<h1> index flod random
-<h2> delta time int bool
-	terrain int setactive
-	([liste]) (hocam size canım feda)
-
-ölüm dediğin nediirki gülüm
